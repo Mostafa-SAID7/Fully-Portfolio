@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Angular",
+    "level": "Advanced"
+  },
+  {
+    "name": "TypeScript",
+    "level": "Advanced"
+  },
+  {
+    "name": "SCSS",
+    "level": "Intermediate"
+  },
+  {
+    "name": "Firebase",
+    "level": "Intermediate"
+  },
+  {
+    "name": "Git & GitHub",
+    "level": "Intermediate"
+  },
+  {
+    "name": "Responsive Design",
+    "level": "Advanced"
+  }
+]

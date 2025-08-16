@@ -1,0 +1,28 @@
+<nav class="navbar">
+  <div class="navbar-container">
+    <a class="logo" routerLink="/">MyPortfolio</a>
+
+  <button class="theme-toggle" (click)="toggleTheme()" aria-label="Toggle Theme">
+  <lord-icon
+    src="https://cdn.lordicon.com/hzomhqxz.json"
+    trigger="click"
+    colors="primary:#1e90ff,secondary:#ffffff"
+    style="width:30px;height:30px">
+  </lord-icon>
+</button>
+
+
+    <!-- زر القائمة الجانبية للموبايل -->
+    <button class="menu-toggle" (click)="toggleMenu()" aria-label="Toggle menu">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <ul [class.active]="isMenuOpen" class="nav-links">
+      <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a></li>
+      <li><a routerLink="/about" routerLinkActive="active">About</a></li>
+      <li><a routerLink="/projects" routerLinkActive="active">Projects</a></li>
+      <li><a routerLink="/skills" routerLinkActive="active">Skills</a></li>
+      <li><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
+    </ul>
+  </div>
+</nav>

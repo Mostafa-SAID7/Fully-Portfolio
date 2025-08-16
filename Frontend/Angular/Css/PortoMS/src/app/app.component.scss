@@ -1,0 +1,40 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #1a1a1a;
+  --primary-color: #1e90ff;
+  --border-color: #ccc;
+}
+
+.dark-theme {
+  --bg-color: #0d0d0d;
+  --text-color: #f0f0f0;
+  --primary-color: #90caf9;
+  --border-color: #222;
+}
+
+.light-theme {
+  // ضروري علشان يتبدل من dark
+  --bg-color: #ffffff;
+  --text-color: #1a1a1a;
+  --primary-color: #1e90ff;
+  --border-color: #ccc;
+}
+body.light {
+  background-color: #fff;
+  color: #000;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+.navbar {
+  background-color: inherit;
+  color: inherit;
+}
